@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 int random = rand() % 100 + 1;
 
 FILE* fichier = NULL;
-fichier = fopen("D:\\ICS\\autres\\C-Adrien\\include\\toto.txt", "r+");
+fichier = fopen("D:\\ICS\\autres\\C-Adrien\\include\\toto.txt", "r+");  //du coup le chemin du fichier va changer mdr
 int caractereActuel = 0;
 
 if (fichier != NULL){
