@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "d:\\ICS\\autres\\C-Adrien\\output",
+            "binaryPath": "d:\\ICS\\autres\\C-Adrien\\output\\main.exe",
+            "binaryArgs": []
+        }
+    ]
+}
