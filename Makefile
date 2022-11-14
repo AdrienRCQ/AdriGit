@@ -90,7 +90,7 @@ run: all
 	./$(OUTPUTMAIN)
 	@echo Executing 'run: all' complete!
 
-git:
+git:  #utilisable en faisant mingw32-make git
 	git add .
 	git commit -m 'push'
 	git push
