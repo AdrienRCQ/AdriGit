@@ -9,12 +9,3 @@ int triple(int nombre)
     return resultat;       // On retourne la variable resultat qui vaut le triple de nombre
 }
 
-void write()
-{
-FILE* fichier = NULL;
-fichier = fopen("D:\\ICS\\autres\\C-Adrien\\include\\toto.txt", "r+");
-
-char phrase[50]="Je suis Adrien Ricque !";
-    fprintf(fichier, "%s", phrase);
-    
-}    
