@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fonctions.h"
 
 
 
-int main(int argc, char *argv[])
+int main()
 {    
 int random = rand() % 100 + 1;
 
