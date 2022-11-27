@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fonctions.h"
+
 
 
 
 int main()
 {    
-int random = rand() % 100 + 1;
+const random = rand() % 100 + 1;
 
 FILE* fichier = NULL;
 fichier = fopen("..\\include\\toto.txt", "r+");  //du coup le chemin du fichier va changer mdr
